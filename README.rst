@@ -1,3 +1,6 @@
+
+⚠️ This repository is PUBLIC. Do not commit any sensitive information. ⚠️
+
 ===========================
 SageMaker Scikit-learn Container
 ===========================
