@@ -34,6 +34,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
 
     install_requires=read("requirements.txt"),
@@ -46,5 +47,5 @@ setup(
         'console_scripts': 'serve=sagemaker_sklearn_container.serving:serving_entrypoint'
     },
 
-    python_requires='>=3.6',
+    python_requires='>=3.10',
 )
