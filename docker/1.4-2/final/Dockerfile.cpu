@@ -17,7 +17,7 @@ RUN uv pip install --system --no-cache /sagemaker_sklearn_container-2.0-py3-none
     rm /sagemaker_sklearn_container-2.0-py3-none-any.whl
 
 # Reinstall boto3 to ensure newer version
-RUN python -m pip install --upgrade boto3==1.36.6
+RUN python3 -m pip install --upgrade boto3==1.36.6
 
 ENV SAGEMAKER_TRAINING_MODULE sagemaker_sklearn_container.training:main
 ENV SAGEMAKER_SERVING_MODULE sagemaker_sklearn_container.serving:main
